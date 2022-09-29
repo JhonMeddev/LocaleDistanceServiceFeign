@@ -1,7 +1,6 @@
-	<properties>
+
 		<java.version>11</java.version>
-		<spring-cloud.version>2021.0.4</spring-cloud.version>
-	</properties>
+
   
   How to start the LocaleDistanceServiceFeign application
 
