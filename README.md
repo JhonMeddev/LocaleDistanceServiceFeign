@@ -3,7 +3,7 @@
 		<spring-cloud.version>2021.0.4</spring-cloud.version>
 	</properties>
   
-  How to start the ConsumindoAPIHoteis application
+  How to start the LocaleDistanceServiceFeign application
 
 ---
 
