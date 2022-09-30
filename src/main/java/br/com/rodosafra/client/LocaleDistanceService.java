@@ -29,7 +29,7 @@ public class LocaleDistanceService {
 		return localeDistance != null ? ResponseEntity.ok().body(localeDistance) : ResponseEntity.notFound().build();
 	}
 	
-	@PostMapping(value = "/hello-world/")
+	@PostMapping(value = "/coordenadas/")
 	public LocaleDistance hello(@RequestBody Coordenadas coordenadas) {
 		LocaleDistance localeDistance = iLocaleDistance.buscaRotas(coordenadas.getN1()+";"+coordenadas.getN2());
 		

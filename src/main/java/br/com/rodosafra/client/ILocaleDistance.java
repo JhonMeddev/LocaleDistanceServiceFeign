@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import br.com.rodosafra.model.LocaleDistance;
 
 @FeignClient(url="https://router.project-osrm.org/route/v1/driving/", name = "routerProject")
-@CrossOrigin(origins = "*", allowedHeaders = "*")
 public interface ILocaleDistance {
 	
 	@GetMapping("{co}")
